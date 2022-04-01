@@ -1,0 +1,6 @@
+
+TAMANHO DE IMAGENS PARA PÁGINAS HTML
+
+300 X 300 - imagem para celular
+700 x 700 - imagem para tablet
+1000 x 1000 - imagem para pc ou notebook

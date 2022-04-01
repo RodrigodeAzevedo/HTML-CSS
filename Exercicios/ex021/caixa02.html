@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semânticas</title>
+    <style>
+        body{
+            background-color: dimgrey;
+            font-family: sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: rgb(256, 256, 256);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.45)
+        }
+
+        nav{
+            background-color: rgb(121, 117, 117);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            margin-right: 30px;
+            box-shadow: 1px 1px 1px black;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            padding: 3px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(158, 157, 157)
+        }
+
+        footer{
+            background-color: black;
+            color: blanchedalmond;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Assuntos"> 
+            <p>Esporte Politica Viagem</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>ECONOMIA</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut ipsum pariatur accusamus fugiat debitis maxime ipsa? Odit incidunt, porro, quam fugit optio beatae, commodi at error ullam eos provident!</p>
+            </article>
+            <article>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+            <article>
+                <h2>ESPORTES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut ipsum pariatur accusamus fugiat debitis maxime ipsa? Odit incidunt, porro, quam fugit optio beatae, commodi at error ullam eos provident!</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Rodrigo Azevedo</p>
+    </footer>
+    
+</body>
+</html>
